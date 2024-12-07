@@ -12,13 +12,13 @@ async def join_vc(client, message):
     if_chat = a_calls.get(chat_id)
     if if_chat:
         return await eor(
-            message, "**Already Joined VC!**"
+            message, "**ᴀʙᴇ ᴠᴄ ᴘᴇ ʜɪ ʜᴜ ᴘᴀʜʟᴇ sᴇ !**"
         )
     if not if_chat:
         try:
             await call.play(chat_id)
             return await eor(
-                message, "**Joined VC!**"
+                message, "**ᴠᴄ ᴘᴇ ᴅᴇᴋʜ ᴜᴘᴀʀ ʜɪ ʜᴜ !**"
             )
         except NoActiveGroupCall:
             return await eor(
@@ -43,13 +43,13 @@ async def join_vc_(client, message):
     if_chat = a_calls.get(chat_id)
     if if_chat:
         return await eor(
-            message, "**Already Joined VC!**"
+            message, "**ᴠᴄ ᴘᴇ ᴅᴇᴋʜ ᴜᴘᴀʀ ʜɪ ʜᴜ!**"
         )
     if not if_chat:
         try:
             await call.play(chat_id)
             return await eor(
-                message, "**Joined VC!**"
+                message, "** ᴀᴀ ɢᴀʏᴀ ᴅᴇᴋʜ ʙᴇ!**"
             )
         except NoActiveGroupCall:
             return await eor(
