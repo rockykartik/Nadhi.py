@@ -62,7 +62,7 @@ Branded Userbot » {__version__} ✨...
 Click On Below 🌺 Buttons To
 Get Userbot Commands.
 
-🌷Powered By : [Branded](https://t.me/BRANDED_PAID_CC).**
+🌷Powered By : [ᎧᎮ ᭄𝐌𝐫⛦𝐩𝐞𝐫𝐟𝐞𝐜𝐭࿐](https://t.me/INTROVERTT_I).**
 """
     
     if plug_match:
