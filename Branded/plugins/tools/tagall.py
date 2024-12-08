@@ -38,7 +38,7 @@ async def tag_all_users(_, message):
                     break
                 usernum += 1
                 usertxt += f"[{m.user.first_name}](tg://user?id={m.user.id})"
-                if usernum == 14:
+                if usernum == 1:
                     await app.send_message(
                         message.chat.id,
                         f"{replied.text}\n\n{usertxt}",
@@ -65,7 +65,7 @@ async def tag_all_users(_, message):
                     break
                 usernum += 1
                 usertxt += f"[{m.user.first_name}](tg://user?id={m.user.id})"
-                if usernum == 14:
+                if usernum == 1:
                     await app.send_message(
                         message.chat.id,
                         f"{text}\n{usertxt}",
@@ -93,7 +93,7 @@ async def tag_all_users(_, message):
             "mentionoff",
             "cancelall",
         ],
-        prefixes=["/", "@"],
+        prefixes=["/", "@", "."],
     )
      & ~filters.private
 )
