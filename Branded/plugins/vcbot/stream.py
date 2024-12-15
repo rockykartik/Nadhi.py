@@ -16,12 +16,7 @@ from ...modules.utilities.streams import *
 @sudo_users_only
 async def audio_stream(client, message):
     chat_id = message.chat.id
-    aux =  await eor userbot.start()
-    await BRANDEDKING82.start()
-    try:
-        await BRANDEDKING82.stream_call(
-            "message, https://files.catbox.moe/tvhifh.ogg"
-        )
+    aux = await eor(message, "**https://te.legra.ph/file/9f51fc842d2474e8449df.jpg ...**")
     calls = await call.calls
     chat_call = calls.get(chat_id)
     audio = (
