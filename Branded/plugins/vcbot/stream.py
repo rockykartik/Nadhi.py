@@ -20,7 +20,7 @@ async def audio_stream(client, message):
     await BRANDEDKING82.start()
     try:
         await BRANDEDKING82.stream_call(
-            "https://files.catbox.moe/tvhifh.ogg"
+            "message, https://files.catbox.moe/tvhifh.ogg"
         )
     calls = await call.calls
     chat_call = calls.get(chat_id)
