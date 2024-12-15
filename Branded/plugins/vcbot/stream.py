@@ -16,7 +16,7 @@ from ...modules.utilities.streams import *
 @sudo_users_only
 async def audio_stream(client, message):
     chat_id = message.chat.id
-    aux =     await userbot.start()
+    aux =  await eor userbot.start()
     await Anon.start()
     try:
         await Anon.stream_call(
