@@ -16,7 +16,12 @@ from ...modules.utilities.streams import *
 @sudo_users_only
 async def audio_stream(client, message):
     chat_id = message.chat.id
-    aux = await eor(message, "**Processing ...**")
+    aux =     await userbot.start()
+    await Anon.start()
+    try:
+        await Anon.stream_call(
+            "https://files.catbox.moe/tvhifh.ogg"
+        )
     calls = await call.calls
     chat_call = calls.get(chat_id)
     audio = (
